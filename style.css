@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    font-family: 'Cuprum', sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    background-image: linear-gradient(#b5e2fa,#9db4c0);
+}
+
+.box{
+    margin: 100px 0px 0px 0px;
+    height: 400px;
+    width: 600px;
+    background-color: white;
+    border: 6px solid black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box .number{
+    font-size: 200px;
+}
+
+.box .buttons{
+    margin: 10px 0px;
+}
+
+.box .buttons #increase{
+    background-color: green;
+    color: white;
+}
+
+.box .buttons #decrease{
+    background-color: red;
+    color: white;
+}
+
+.box .buttons .btn{
+    border-radius: 5px;
+    font-size: 23px;
+    height: 35px;
+    width: 130px;
+    margin: 0px 20px;
+    cursor: pointer;
+}
